@@ -1,0 +1,556 @@
+[
+  {
+    "file": "reviews.csv",
+    "schema": {
+      "review_id": {
+        "type": "int",
+        "example": 801
+      },
+      "product_id": {
+        "type": "int",
+        "example": 101
+      },
+      "rating": {
+        "type": "int",
+        "example": 5
+      },
+      "text": {
+        "type": "str",
+        "example": "Amazing laptop, super fast!"
+      }
+    },
+    "preview": [
+      {
+        "review_id": 801,
+        "product_id": 101,
+        "rating": 5,
+        "text": "Amazing laptop, super fast!"
+      },
+      {
+        "review_id": 802,
+        "product_id": 102,
+        "rating": 3,
+        "text": "Mouse is okay but battery drains fast."
+      },
+      {
+        "review_id": 803,
+        "product_id": 107,
+        "rating": 4,
+        "text": "Great smartphone, but camera could be better."
+      },
+      {
+        "review_id": 804,
+        "product_id": 108,
+        "rating": 5,
+        "text": "Tablet is perfect for work."
+      },
+      {
+        "review_id": 805,
+        "product_id": 105,
+        "rating": 2,
+        "text": "Headphones broke after a week."
+      },
+      {
+        "review_id": 806,
+        "product_id": 104,
+        "rating": 4,
+        "text": "Nice monitor, colors are accurate."
+      },
+      {
+        "review_id": 807,
+        "product_id": 103,
+        "rating": 5,
+        "text": "Keyboard feels premium and quiet."
+      },
+      {
+        "review_id": 808,
+        "product_id": 109,
+        "rating": 3,
+        "text": "Webcam quality is acceptable."
+      },
+      {
+        "review_id": 809,
+        "product_id": 106,
+        "rating": 5,
+        "text": "USB cable works flawlessly."
+      },
+      {
+        "review_id": 810,
+        "product_id": 110,
+        "rating": 4,
+        "text": "Chair is ergonomic and comfortable."
+      }
+    ]
+  },
+  {
+    "file": "user_events.csv",
+    "schema": {
+      "event_id": {
+        "type": "int",
+        "example": 1
+      },
+      "user_id": {
+        "type": "int",
+        "example": 1
+      },
+      "event_type": {
+        "type": "str",
+        "example": "page_view"
+      },
+      "page": {
+        "type": "str",
+        "example": "home"
+      },
+      "timestamp": {
+        "type": "str",
+        "example": "2023-07-01 10:00:03"
+      }
+    },
+    "preview": [
+      {
+        "event_id": 1,
+        "user_id": 1,
+        "event_type": "page_view",
+        "page": "home",
+        "timestamp": "2023-07-01 10:00:03"
+      },
+      {
+        "event_id": 2,
+        "user_id": 1,
+        "event_type": "click",
+        "page": "product/101",
+        "timestamp": "2023-07-01 10:03:40"
+      },
+      {
+        "event_id": 3,
+        "user_id": 1,
+        "event_type": "add_to_cart",
+        "page": "product/101",
+        "timestamp": "2023-07-01 10:04:12"
+      },
+      {
+        "event_id": 4,
+        "user_id": 2,
+        "event_type": "page_view",
+        "page": "home",
+        "timestamp": "2023-06-15 09:11:05"
+      },
+      {
+        "event_id": 5,
+        "user_id": 2,
+        "event_type": "page_view",
+        "page": "product/102",
+        "timestamp": "2023-06-15 09:12:33"
+      },
+      {
+        "event_id": 6,
+        "user_id": 3,
+        "event_type": "page_view",
+        "page": "product/107",
+        "timestamp": "2023-04-10 14:00:01"
+      },
+      {
+        "event_id": 7,
+        "user_id": 3,
+        "event_type": "click",
+        "page": "product/107",
+        "timestamp": "2023-04-10 14:00:55"
+      },
+      {
+        "event_id": 8,
+        "user_id": 4,
+        "event_type": "page_view",
+        "page": "home",
+        "timestamp": "2023-02-17 17:10:20"
+      },
+      {
+        "event_id": 9,
+        "user_id": 5,
+        "event_type": "page_view",
+        "page": "product/108",
+        "timestamp": "2023-06-20 12:30:10"
+      },
+      {
+        "event_id": 10,
+        "user_id": 7,
+        "event_type": "page_view",
+        "page": "product/106",
+        "timestamp": "2023-05-03 09:50:22"
+      }
+    ]
+  },
+  {
+    "file": "customers.csv",
+    "schema": {
+      "customer_id": {
+        "type": "int",
+        "example": 1
+      },
+      "name": {
+        "type": "str",
+        "example": "Alice"
+      },
+      "age": {
+        "type": "int",
+        "example": 31
+      },
+      "city": {
+        "type": "str",
+        "example": "Amsterdam"
+      },
+      "signup_date": {
+        "type": "str",
+        "example": "2021-02-10"
+      }
+    },
+    "preview": [
+      {
+        "customer_id": 1,
+        "name": "Alice",
+        "age": 31,
+        "city": "Amsterdam",
+        "signup_date": "2021-02-10"
+      },
+      {
+        "customer_id": 2,
+        "name": "Bob",
+        "age": 27,
+        "city": "Rotterdam",
+        "signup_date": "2022-06-11"
+      },
+      {
+        "customer_id": 3,
+        "name": "Clara",
+        "age": 29,
+        "city": "Utrecht",
+        "signup_date": "2023-01-15"
+      },
+      {
+        "customer_id": 4,
+        "name": "David",
+        "age": 35,
+        "city": "Eindhoven",
+        "signup_date": "2020-11-03"
+      },
+      {
+        "customer_id": 5,
+        "name": "Eva",
+        "age": 24,
+        "city": "Hague",
+        "signup_date": "2023-04-02"
+      },
+      {
+        "customer_id": 6,
+        "name": "Mark",
+        "age": 42,
+        "city": "Amsterdam",
+        "signup_date": "2019-05-18"
+      },
+      {
+        "customer_id": 7,
+        "name": "Lisa",
+        "age": 33,
+        "city": "Rotterdam",
+        "signup_date": "2021-09-27"
+      },
+      {
+        "customer_id": 8,
+        "name": "Tom",
+        "age": 28,
+        "city": "Utrecht",
+        "signup_date": "2023-03-22"
+      },
+      {
+        "customer_id": 9,
+        "name": "Nora",
+        "age": 30,
+        "city": "Eindhoven",
+        "signup_date": "2022-12-01"
+      },
+      {
+        "customer_id": 10,
+        "name": "Sam",
+        "age": 26,
+        "city": "Hague",
+        "signup_date": "2023-06-10"
+      }
+    ]
+  },
+  {
+    "file": "support_tickets.csv",
+    "schema": {
+      "ticket_id": {
+        "type": "int",
+        "example": 301
+      },
+      "user_id": {
+        "type": "int",
+        "example": 1
+      },
+      "title": {
+        "type": "str",
+        "example": "Cannot login"
+      },
+      "status": {
+        "type": "str",
+        "example": "open"
+      },
+      "created_at": {
+        "type": "str",
+        "example": "2023-01-20"
+      }
+    },
+    "preview": [
+      {
+        "ticket_id": 301,
+        "user_id": 1,
+        "title": "Cannot login",
+        "status": "open",
+        "created_at": "2023-01-20"
+      },
+      {
+        "ticket_id": 302,
+        "user_id": 2,
+        "title": "Refund request",
+        "status": "resolved",
+        "created_at": "2023-01-21"
+      },
+      {
+        "ticket_id": 303,
+        "user_id": 3,
+        "title": "Screen flickering on smartphone",
+        "status": "open",
+        "created_at": "2023-04-12"
+      },
+      {
+        "ticket_id": 304,
+        "user_id": 4,
+        "title": "Order not delivered",
+        "status": "resolved",
+        "created_at": "2023-02-20"
+      },
+      {
+        "ticket_id": 305,
+        "user_id": 6,
+        "title": "Monitor has dead pixels",
+        "status": "open",
+        "created_at": "2023-01-30"
+      },
+      {
+        "ticket_id": 306,
+        "user_id": 9,
+        "title": "Double charge on card",
+        "status": "resolved",
+        "created_at": "2023-06-05"
+      },
+      {
+        "ticket_id": 307,
+        "user_id": 8,
+        "title": "Headphones stopped working",
+        "status": "open",
+        "created_at": "2023-07-02"
+      },
+      {
+        "ticket_id": 308,
+        "user_id": 10,
+        "title": "Issue with tablet performance",
+        "status": "open",
+        "created_at": "2023-06-10"
+      },
+      {
+        "ticket_id": 309,
+        "user_id": 7,
+        "title": "USB cable not detected",
+        "status": "resolved",
+        "created_at": "2023-05-04"
+      },
+      {
+        "ticket_id": 310,
+        "user_id": 5,
+        "title": "Account password reset not working",
+        "status": "open",
+        "created_at": "2023-03-10"
+      }
+    ]
+  },
+  {
+    "file": "products.csv",
+    "schema": {
+      "product_id": {
+        "type": "int",
+        "example": 101
+      },
+      "category": {
+        "type": "str",
+        "example": "laptop"
+      },
+      "price": {
+        "type": "int",
+        "example": 1099
+      },
+      "in_stock": {
+        "type": "bool",
+        "example": true
+      }
+    },
+    "preview": [
+      {
+        "product_id": 101,
+        "category": "laptop",
+        "price": 1099,
+        "in_stock": true
+      },
+      {
+        "product_id": 102,
+        "category": "mouse",
+        "price": 25,
+        "in_stock": true
+      },
+      {
+        "product_id": 103,
+        "category": "keyboard",
+        "price": 49,
+        "in_stock": true
+      },
+      {
+        "product_id": 104,
+        "category": "monitor",
+        "price": 249,
+        "in_stock": true
+      },
+      {
+        "product_id": 105,
+        "category": "headphones",
+        "price": 89,
+        "in_stock": false
+      },
+      {
+        "product_id": 106,
+        "category": "usb_cable",
+        "price": 12,
+        "in_stock": true
+      },
+      {
+        "product_id": 107,
+        "category": "smartphone",
+        "price": 799,
+        "in_stock": true
+      },
+      {
+        "product_id": 108,
+        "category": "tablet",
+        "price": 499,
+        "in_stock": true
+      },
+      {
+        "product_id": 109,
+        "category": "webcam",
+        "price": 59,
+        "in_stock": true
+      },
+      {
+        "product_id": 110,
+        "category": "chair",
+        "price": 199,
+        "in_stock": true
+      }
+    ]
+  },
+  {
+    "file": "transactions.csv",
+    "schema": {
+      "transaction_id": {
+        "type": "int",
+        "example": 5001
+      },
+      "customer_id": {
+        "type": "int",
+        "example": 1
+      },
+      "product_id": {
+        "type": "int",
+        "example": 101
+      },
+      "amount": {
+        "type": "int",
+        "example": 1099
+      },
+      "timestamp": {
+        "type": "str",
+        "example": "2023-03-05 10:41:00"
+      }
+    },
+    "preview": [
+      {
+        "transaction_id": 5001,
+        "customer_id": 1,
+        "product_id": 101,
+        "amount": 1099,
+        "timestamp": "2023-03-05 10:41:00"
+      },
+      {
+        "transaction_id": 5002,
+        "customer_id": 2,
+        "product_id": 102,
+        "amount": 25,
+        "timestamp": "2023-03-05 11:10:12"
+      },
+      {
+        "transaction_id": 5003,
+        "customer_id": 3,
+        "product_id": 107,
+        "amount": 799,
+        "timestamp": "2023-04-11 14:03:45"
+      },
+      {
+        "transaction_id": 5004,
+        "customer_id": 1,
+        "product_id": 103,
+        "amount": 49,
+        "timestamp": "2023-06-01 09:22:18"
+      },
+      {
+        "transaction_id": 5005,
+        "customer_id": 4,
+        "product_id": 110,
+        "amount": 199,
+        "timestamp": "2023-02-17 17:30:52"
+      },
+      {
+        "transaction_id": 5006,
+        "customer_id": 5,
+        "product_id": 108,
+        "amount": 499,
+        "timestamp": "2023-06-20 12:41:03"
+      },
+      {
+        "transaction_id": 5007,
+        "customer_id": 6,
+        "product_id": 104,
+        "amount": 249,
+        "timestamp": "2023-01-29 16:22:11"
+      },
+      {
+        "transaction_id": 5008,
+        "customer_id": 7,
+        "product_id": 106,
+        "amount": 12,
+        "timestamp": "2023-05-03 09:58:33"
+      },
+      {
+        "transaction_id": 5009,
+        "customer_id": 8,
+        "product_id": 105,
+        "amount": 89,
+        "timestamp": "2023-07-01 21:10:17"
+      },
+      {
+        "transaction_id": 5010,
+        "customer_id": 9,
+        "product_id": 102,
+        "amount": 25,
+        "timestamp": "2023-06-04 15:05:09"
+      }
+    ]
+  }
+]

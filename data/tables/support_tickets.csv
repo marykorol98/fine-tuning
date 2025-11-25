@@ -1,0 +1,11 @@
+ticket_id,user_id,title,status,created_at
+301,1,"Cannot login",open,2023-01-20
+302,2,"Refund request",resolved,2023-01-21
+303,3,"Screen flickering on smartphone",open,2023-04-12
+304,4,"Order not delivered",resolved,2023-02-20
+305,6,"Monitor has dead pixels",open,2023-01-30
+306,9,"Double charge on card",resolved,2023-06-05
+307,8,"Headphones stopped working",open,2023-07-02
+308,10,"Issue with tablet performance",open,2023-06-10
+309,7,"USB cable not detected",resolved,2023-05-04
+310,5,"Account password reset not working",open,2023-03-10

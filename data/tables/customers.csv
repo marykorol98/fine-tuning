@@ -1,0 +1,11 @@
+customer_id,name,age,city,signup_date
+1,Alice,31,Amsterdam,2021-02-10
+2,Bob,27,Rotterdam,2022-06-11
+3,Clara,29,Utrecht,2023-01-15
+4,David,35,Eindhoven,2020-11-03
+5,Eva,24,Hague,2023-04-02
+6,Mark,42,Amsterdam,2019-05-18
+7,Lisa,33,Rotterdam,2021-09-27
+8,Tom,28,Utrecht,2023-03-22
+9,Nora,30,Eindhoven,2022-12-01
+10,Sam,26,Hague,2023-06-10

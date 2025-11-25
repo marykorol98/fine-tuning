@@ -1,0 +1,11 @@
+event_id,user_id,event_type,page,timestamp
+1,1,page_view,home,2023-07-01 10:00:03
+2,1,click,product/101,2023-07-01 10:03:40
+3,1,add_to_cart,product/101,2023-07-01 10:04:12
+4,2,page_view,home,2023-06-15 09:11:05
+5,2,page_view,product/102,2023-06-15 09:12:33
+6,3,page_view,product/107,2023-04-10 14:00:01
+7,3,click,product/107,2023-04-10 14:00:55
+8,4,page_view,home,2023-02-17 17:10:20
+9,5,page_view,product/108,2023-06-20 12:30:10
+10,7,page_view,product/106,2023-05-03 09:50:22
