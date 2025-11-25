@@ -1,0 +1,11 @@
+product_id,category,price,in_stock
+101,laptop,1099,true
+102,mouse,25,true
+103,keyboard,49,true
+104,monitor,249,true
+105,headphones,89,false
+106,usb_cable,12,true
+107,smartphone,799,true
+108,tablet,499,true
+109,webcam,59,true
+110,chair,199,true
