@@ -1,7 +1,7 @@
 import os
 import json
 import pandas as pd
-from typing import Dict, Any
+from typing import Any, Hashable
 
 # -------- Настройки --------
 INPUT_DIR = "data/tables"     # Папка с твоими CSV
@@ -63,7 +63,7 @@ def generate_schema(df: pd.DataFrame) -> dict:
 
 
 # -------- Генерация preview --------
-def generate_preview(df: pd.DataFrame, n: int = 10) -> list[dict[str, Any]]:
+def generate_preview(df: pd.DataFrame, n: int = 10) -> list[dict[Hashable, Any]]:
     records = df.head(n).to_dict(orient="records")
     # Конвертируем все numpy-типы внутри preview
     for rec in records:
